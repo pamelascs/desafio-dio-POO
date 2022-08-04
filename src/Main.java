@@ -9,21 +9,21 @@ public class Main {
     public static void main(String[] args) {
 
         Curso curso1 = new Curso();
-        curso1.setTitulo("curso java");
+        curso1.setTitulo("Curso java");
         curso1.setDescricao("descrição curso java");
         curso1.setCargaHoraria(8);
 
         Curso curso2 = new Curso();
-        curso1.setTitulo("curso javaScript");
-        curso1.setDescricao("descrição curso JS");
+        curso1.setTitulo("Curso Springboot ");
+        curso1.setDescricao("descrição curso Springboot");
         curso1.setCargaHoraria(6);
 
 
 
         Mentoria mentoria1 = new Mentoria();
-        mentoria1.setTitulo("mentoria java");
-        mentoria1.setDescricao("descmentoria");
-        mentoria1.setData(LocalDate.now() );
+        mentoria1.setTitulo("Mentoria Dio");
+        mentoria1.setDescricao("descricao da mentoria");
+        mentoria1.setData(LocalDate.now());
 
         /*System.out.println(curso1);
         System.out.println(curso2);
@@ -40,6 +40,7 @@ public class Main {
         devPamela.setNome("Pamela");
         devPamela.inscreverBootecamp(bootcamp);
         System.out.println("Conteudos Inscritos:" + devPamela.getConteudosInscritos());
+        devPamela.progredir();
         devPamela.progredir();
         devPamela.progredir();
         System.out.println("--");
